@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+body {
+	text-align: center;
+	background-color: #ffffff;
+}
+
+#level-title {
+	font-family: 'Staatliches', cursive;
+	letter-spacing: 10px;
+	font-size: 3rem;
+	margin: 5%;
+	color: #212642;
+}
+
+.container {
+	max-width: 1140px;
+	margin: auto;
+	margin-top: 100px;
+}
+
+/* Learned about transition and transform here */
+.btn {
+	margin: 15px;
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+	border-radius: 10px;
+	cursor: pointer;
+	transform-style: preserve-3d;
+	transition: transform .65s;
+}
+.btn.flipped {
+	transform: rotateX(180deg);
+}
+
+button {
+	margin: 20px;
+	-webkit-border-radius: 5;
+	-moz-border-radius: 5;
+	border-radius: 5px;
+	font-family: Arial;
+	color: #000000;
+	font-size: 19px;
+	padding: 10px 20px 10px 20px;
+	border: solid #000000 2px;
+	text-decoration: none;
+	cursor: pointer;
+	display: none;
+}
+.game-over {
+	background-color: #b92149;
+	opacity: 0.8;
+}
+
+.game-over-btn {
+	background-color: #ffffff;
+}
+
+.blue {
+	background-color: #134e6f;
+}
+
+.yellow {
+	background-color: #ffa822;
+}
+
+.pink {
+	background-color: #ff6e86;
+}
+.green {
+	background-color: #18b388;
+}
+
+.orange {
+	background-color: #ff6150;
+}
+
+.cyan {
+	background-color: #1ac1c7;
+}
+
+.pressed {
+	box-shadow: 0 0 20px white;
+	background-color: grey;
+}
+
+.game-over-btn {
+	background-color: #ffffff;
+}
